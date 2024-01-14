@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -123,9 +127,9 @@ nav > a > img {
     width: 50%;
 }
 
-.contact>.container>h3 {
+/*.contact>.container>h3 {
     padding-top: 40px;
-}
+}*/
 
 .img-container {
     padding: 0;
