@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+  color: #9db2bf;
+  font-size: 6.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #dde6ed;
+  font-size: 2.75rem;
+  margin: 0;
+}
+
+p {
+    color: #dde6ed;
+    font-size: 1.5rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;  
+  background-color: #27374d;
+}
+
+nav > a > img {
+  width: 50px;
+  margin: 5px 15px;
+}
+
+.header {
+  background-image: url("./assets/image/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0;
+}
+
+.main,
+.interest,
+.contact {
+    background-color: #27374D;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main > .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.main > .container > img {
+  height: 45vh;
+  margin: 20px;
+}
+
+.container {
+  padding: 5% 10%;
+}
+
+.button {
+  background-color: #526d82; /* Green */
+  border: none;
+  color: white;
+  margin-top: 2rem;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.interest > .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.interest > h1 {
+    margin: 0;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;   
+  }
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  background-color: #526d82;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    height: 100vh;
+}
+
+.contact>.container {
+    width: 50%;
+}
+
+.contact>.container>h3 {
+    padding-top: 40px;
+}
+
+.img-container {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+}
+
+.img-container>img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #526d82;
+    height: 100px;
+}
+
+footer>* {
+    padding: 30px 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .header>.container {
+        padding-top: 20%;
+    }
+
+    .interest {
+        height: auto;
+    }
+
+    .interest > .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        margin-bottom: 50px;
+      }
+}
